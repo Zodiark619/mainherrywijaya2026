@@ -73,7 +73,7 @@ function Freelancer() {
           <p className="masthead-subheading font-weight-light mb-0">
             Software Developer | IT Web Developer
             <br></br>
-            Pengalaman kerja 1 tahun
+            Pengalaman kerja 1 tahun (C#, ASP.NET, API, SQL, Javascript)
           </p>
         </div>
       </header>
