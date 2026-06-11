@@ -280,14 +280,12 @@ function Freelancer() {
               <p className="lead">{freelancer.overview}</p>
             </div>
             <div className="col-lg-4 me-auto">
-              <p className="lead">
-                Skills :{" "}
-                <ul>
-                  {freelancer.skills.map((x, index) => {
-                    return <li key={index}>{x}</li>;
-                  })}
-                </ul>
-              </p>
+              <p className="lead">Skills : </p>
+              <ul>
+                {freelancer.skills.map((x, index) => {
+                  return <li key={index}>{x}</li>;
+                })}
+              </ul>
             </div>
           </div>
           <div className="text-center mt-4">
