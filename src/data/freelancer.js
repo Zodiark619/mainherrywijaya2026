@@ -7,6 +7,13 @@ export const freelancer = {
       image: "resumePortfolio1.png",
       modalId: "portfolioModal1",
     },
+    {
+      title: "ecommerce",
+      description: "React and .NET Ecommerce",
+      link: "https://github.com/Zodiark619/northwindreact",
+      image: "resumePortfolio2.png",
+      modalId: "portfolioModal2",
+    },
   ],
   foto: "foto.jpg",
   resumeFile: "Resume2026HerryWijaya.pdf",
