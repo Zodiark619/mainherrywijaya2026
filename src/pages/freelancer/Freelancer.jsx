@@ -148,9 +148,20 @@ function Freelancer() {
 
                                 <p className="mb-4">
                                   {x.description} (
-                                  <a href={x.link} target="_blank">
+                                  {/* <a href={x.link} target="_blank">
                                     {x.link}
-                                  </a>
+                                  </a> */}
+                                  {x.link.map((link) => (
+                                    <a
+                                      key={link}
+                                      href={link}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="d-block"
+                                    >
+                                      {link}
+                                    </a>
+                                  ))}
                                   )
                                 </p>
                                 <button

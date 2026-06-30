@@ -3,14 +3,18 @@ export const freelancer = {
     {
       title: "resume",
       description: "Static website resume",
-      link: "https://zodiark619.github.io/herrywijaya2026/",
+      link: ["https://zodiark619.github.io/herrywijaya2026/"],
       image: "resumePortfolio1.png",
       modalId: "portfolioModal1",
     },
     {
       title: "ecommerce",
       description: "React and .NET Ecommerce",
-      link: "https://github.com/Zodiark619/northwindreact",
+      link: [
+        "https://github.com/Zodiark619/northwindreact",
+
+        "https://github.com/Zodiark619/northwindreactapi",
+      ],
       image: "resumePortfolio2.png",
       modalId: "portfolioModal2",
     },
