@@ -18,6 +18,13 @@ export const freelancer = {
       image: "resumePortfolio2.png",
       modalId: "portfolioModal2",
     },
+    {
+      title: "Multiple Fullstack Projects",
+      description: "FullstackReact and .NET WebAPI Projects",
+      link: ["https://github.com/Zodiark619/reactbeginner"],
+      image: "resumePortfolio3.png",
+      modalId: "portfolioModal3",
+    },
   ],
   foto: "foto.jpg",
   resumeFile: "Resume2026HerryWijaya.pdf",
